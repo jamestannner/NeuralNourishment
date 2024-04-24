@@ -118,7 +118,7 @@ class Tokenizer:
 
     def encode(self, text: str) -> list[int]:
         if self.special_tokens:
-            special_pattern = "(" + "|".join(re.escape(k) for k in special_tokens) + ")"
+            special_pattern = "(" + "|".join(re.escape(k) for k in self.special_tokens) + ")"
         else: 
             special_pattern = "^$" # match nothing
 
@@ -180,7 +180,7 @@ if __name__ == "__main__":
     T.train(text, vocab_size=MAX_VOCAB_SIZE - len(special_tokens))
     T.register_special_tokens(special_tokens)
 
-    example_new_text = "This is new text that the model has never seen before!!"
+    example_new_text = "This is new text that the model has never seen before!!<|endrecipe|>"
     print(f"Original Text: {example_new_text}\n")
     encoded = T.encode(example_new_text)
     print(f"Encoded: {encoded}\n")
