@@ -1,0 +1,38 @@
+{
+    "ner": [
+        "pasta",
+        "tomatoes",
+        "chicken",
+        "garlic",
+        "basil",
+        "oregano",
+        "black pepper",
+        "nutmeg",
+        "sour cream",
+        "red wine",
+        "pizza sauce"
+    ],
+    "title": "Chicken Chili",
+    "ingredients": [
+        "1 lb pasta",
+        "12 - 16 oz . tomatoes , washed and chopped",
+        "3 cloves garlic , minced",
+        "12 oz . basil , chopped",
+        "1 / 4 tsp . dried oregano",
+        "1 / 2 tsp . black pepper",
+        "1 / 2 tsp . freshly grated nutmeg",
+        "1 / 2 cup sour cream",
+        "1 cup red wine or chervil",
+        "12 - 18 hoag pizza sauce"
+    ],
+    "directions": [
+        "In a large frying pan , cook pasta until al dente and drain .",
+        "Add tomatoes , chicken , garlic , basil , oregano , black pepper and nutmeg .",
+        "Cook for approximately 8 minutes .",
+        "Meanwhile , cook and stir approximately 8 minutes .",
+        "Reduce heat and cook pasta according to package directions .",
+        "Drain , return pasta to pan .",
+        "Stir in cheese until melted .",
+        "Serve with mashed tomatoes ."
+    ]
+}
