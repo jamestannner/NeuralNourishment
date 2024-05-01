@@ -1,5 +1,9 @@
 # Neural Nets Project
 
+
+> A blog post about this project can be found [here](https://medium.com/@acweingrad/robots-in-the-kitchen-neuralnourishment-6be279f3c125)
+
+
 ## Local Development Setup
 1. Clone this repository locally
 2. `cd` into that directory and install the project requirements with `pip -r requirements.txt`
